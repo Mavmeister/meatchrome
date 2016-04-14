@@ -1,0 +1,7 @@
+<div ng-controller="MainController as main">
+		<div class="datetime">
+			<h1>{{main.date.raw | date:'hh mm ss'}}</h1>
+			<h3>{{main.date.raw | date:'EEEE, MMMM yyyy'}}</h3>
+			<h2>{{main.weather.forecast | json}} </h2>
+		</div>
+</div>
